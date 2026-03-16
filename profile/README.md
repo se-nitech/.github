@@ -1,7 +1,10 @@
-## ソフトウェア工学用リポジトリ
+# ソフトウェア工学用リポジトリ
+
+## コード
+
+- git clone
 
 ```bash
-
 # Git
 git clone https://github.com/se-nitech/diff-patch-git.git
 
@@ -27,4 +30,27 @@ git clone https://github.com/se-nitech/format-java.git
 git clone https://github.com/se-nitech/document-sphinx.git
 git clone https://github.com/se-nitech/document-doxygen.git
 git clone https://github.com/se-nitech/document-javadoc.git
+```
+
+- update
+
+```bash
+foreach i in *; do cd $i; git pull; cd .. ; done
+```
+
+## Dockerコンテナ
+
+```bash
+docker pull python:slim
+docker pull gcc
+docker pull dockerfile
+docker pull quay.io/jupyter/datascience-notebook
+docker pull plantuml/plantuml-server
+docker pull tttamaki/dfd-generator
+```
+
+- update
+
+```bash
+foreach i in *; do cd $i; docker compose build; cd .. ; done
 ```
