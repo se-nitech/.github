@@ -19,7 +19,8 @@ git clone https://github.com/se-nitech/debug-python.git
 git clone https://github.com/se-nitech/debug-java.git
 
 # Test
-git clone https://github.com/se-nitech/unittest_pytest.git
+git clone https://github.com/se-nitech/unittest-pytest.git
+git clone https://github.com/se-nitech/unittest-java.git
 
 # Formatting
 git clone https://github.com/se-nitech/format-python.git
