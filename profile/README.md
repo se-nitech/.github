@@ -44,10 +44,10 @@ foreach i in *; do cd $i; git pull; cd .. ; done
 ```bash
 docker pull python:slim
 docker pull gcc
-docker pull dockerfile
 docker pull quay.io/jupyter/datascience-notebook
 docker pull plantuml/plantuml-server
 docker pull tttamaki/dfd-generator
+docker pull maven:3.9-eclipse-temurin-25
 ```
 
 - update
